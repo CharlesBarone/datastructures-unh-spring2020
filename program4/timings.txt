@@ -1,0 +1,19 @@
+I believe these results are slighly impacted by some weird CPU optimizations that are occuring... I'm not exactly sure though.
+
+Red Black Tree Lookup times:
+Nodes		Time(microseconds)
+100			39.603μs
+1000		55.108μs
+10000		38.62μs
+100000		5.165μs
+1000000		4.371μs
+
+Unsorted Linked List Lookup times: (For Comparision Purposes)
+Items		Time(microseconds)
+100			20.419μs
+1000		21.54μs
+10000		35.03μs
+100000		5.177μs
+1000000		5.586μs
+
+It seems that under a larger amount of entiries, the Red Black Tree is slightly faster than the Unsorted Linked List. Although, under the opposite circumstances, where the amount of enteries is smaller, the Unsorted Linked List is slightly faster than the Red Black Tree.
